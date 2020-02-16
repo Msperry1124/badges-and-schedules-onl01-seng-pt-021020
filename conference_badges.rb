@@ -1,6 +1,6 @@
   def badge_maker (name)
  "Hello, my name is #{name}."
-end# Write your code here.
+end
 def batch_badge_creator (attendees)
  attendees.collect do |name| badge_maker (name)
  end
